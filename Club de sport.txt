@@ -1,0 +1,9 @@
+Club de sport
+
+éducateur : N° édu (primary key), N° licence (foreign key)[OnetoOne], email, mdp, admin? (boolean)
+
+licencié : N° licence (primary key), nom, prenom, code catégorie du licencié (foreign key)[ManytoOne], N° contact du licencié (foreign key)[OnetoMany]
+
+contact : N° contact (primary key), nom, prenom, email, N° tel
+
+catégorie : code catégorie (primary key), nom
