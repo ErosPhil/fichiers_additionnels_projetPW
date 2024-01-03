@@ -1,1 +1,1 @@
-Fichiers à rajouter à la racine du projet
+Dézipper le vendor.zip et le joindre à en.local à la racine du projet
